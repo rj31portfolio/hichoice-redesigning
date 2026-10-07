@@ -95,49 +95,57 @@
 }
 </script>
     
+    <link href="css/site-shell.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <!-- Navbar Start -->
-    <header id="header">
+    <header id="header" class="site-header">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid px-0">
                 <div class="col-md-3 col-8 text-dark">
                     <a class="navbar-brand d-flex " href="index.html">
-                        <img class="img-fluid w-50 " src="img/hlogo.png" alt="">
-                        <!-- <div class="d-flex flex-column justify-content-center">
-                            <span style="color:#dbd027; font-size:16px;">To Be Safe</span>
-                            <span style="color:#dbd027;font-size:16px ;"> & Secure</span>
-                        </div> -->
+                        <img class="img-fluid w-50 " src="img/hlogo.png" alt="Hi Choice">
+
                     </a>
                 </div>
                 <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
-                    data-bs-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon fa-solid fa-bars text-white"></span>
+                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fas fa-bars text-white"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item px-3">
-                            <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link  " href="index.html">Home</a>
                         </li>
                         <li class="nav-item px-3">
                             <a class="nav-link " href="about2.html">About Us</a>
                         </li>
-                     <li class="nav-item px-3 dropdown">
-                            <a href="product.php" class=" nav-link  dropdown-toggle" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+
+
+
+
+
+                        <li class="nav-item px-3 dropdown">
+                            <a href="product.html" class="active  nav-link  dropdown-toggle" data-bs-toggle="dropdown"
+                                aria-expanded="false" aria-current="page">
                                 Products
                             </a>
                             <ul class="dropdown-menu">
-                                 <li><a class="dropdown-item" href="ceiling-fan-manufacturers-delhi.html">Ceiling Fans</a></li>
-                               <li><a class="dropdown-item" href="electric-iron-manufacturers-delhi.html">Electrical Iron</a></li>
-                               <li><a class="dropdown-item" href="home-appliances-manufacturers-delhi.html">Home Appliances</a></li>
+                                <li><a class="dropdown-item" href="ceiling-fan-manufacturers-delhi.html">Ceiling
+                                        Fans</a></li>
+                                <li><a class="dropdown-item" href="electric-iron-manufacturers-delhi.html">Electrical
+                                        Iron</a></li>
+                                <li><a class="dropdown-item" href="home-appliances-manufacturers-delhi.html">Home
+                                        Appliances</a></li>
                                 <li><a class="dropdown-item" href="product.html#Heating">Heating Element</a></li>
                                 <li><a class="dropdown-item" href="product.html#Geysers">Geysers</a></li>
 
-                                 <li><a class="dropdown-item" href="product.html#RoomHeater">Room Heater</a></li>
+                                <li><a class="dropdown-item" href="product.html#RoomHeater">Room Heater</a></li>
                                 <li><a class="dropdown-item" href="product.html#Kitchen">Kitchen Appliances</a></li>
                                 <li><a class="dropdown-item" href="product.html#Mixer">Mixer Grinder</a></li>
                                 <li><a class="dropdown-item" href="product.html#Pvc">Pvc Wires & Cables</a></li>
@@ -145,36 +153,11 @@
                                 <li><a class="dropdown-item" href="product.html#PowerStrip">Power Strip</a></li>
                                 <li><a class="dropdown-item" href="product.html#ExtensionCord">Extension cord</a></li>
                                 <li><a class="dropdown-item" href="product.html#DoorWater">Door/Water Bell </a></li>
-                               <li><a class="dropdown-item" href="product.html#ElectricalAccessories">Electrical Accessories</a></li>
+                                <li><a class="dropdown-item" href="product.html#ElectricalAccessories">Electrical
+                                        Accessories</a></li>
 
                             </ul>
-                        </li> 
-                        <!-- <li class="nav-item px-3">
-                            <a class="nav-link " href="#prod"> Products</a>
-                        </li> -->
-                        <!-- <li class="nav-item px-3 dropdown">
-                            <a href="product.php" class=" nav-link  dropdown-toggle" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Products
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="Conductive-Concret.html">Conductive concrete</a></li>
-                                <li><a class="dropdown-item" href="FRP-Pit-Cover.html">FRP Pit Cover</a></li>
-                                <li><a class="dropdown-item" href="Copper-Bonded-Rod.html">Copper Bonded Rod</a></li>
-                                <li><a class="dropdown-item" href="Conductive-Concret-2.html">Conductive Concrete</a>
-                                </li>
-                                <li><a class="dropdown-item" href="Ese-Lightning-Arresters.html">Ese Lightning Arresters
-                                    </a></li>
-                                <li><a class="dropdown-item" href="Lighting-Arrester.html">Lighting Arrester</a></li>
-                                <li><a class="dropdown-item" href="Backfill-Earthing-Compound.html">Backfill Earthing
-                                        Compound</a></li>
-                                <li><a class="dropdown-item"
-                                        href="Sesnite-Conductive-Chemical-Earthing-Compound.html">Sesnite Conductive
-                                        Chemical Earthing Compound</a></li>
-                               <li><a class="dropdown-item" href="Earthing-Rod.html">Earthing Rod</a></li>
-
-                            </ul>
-                        </li> -->
+                        </li>
 
                         <li class="nav-item px-3">
                             <a class="nav-link " href="blog2.html">Blog</a>
@@ -188,32 +171,21 @@
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav-icon">
                         <div class="d-flex pt-1 m-n1 justify-content-center">
                             <a class="btn btn-lg-square btn-dark text-primary m-1"
-                                href="https://www.facebook.com/hichoice.appliances"><i
-                                    class="fab fa-facebook-f"></i></a>
+                                href="https://www.facebook.com/hichoice.appliances"
+                                aria-label="Hi Choice on Facebook"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-lg-square btn-dark text-primary m-1"
-                                href="https://www.instagram.com/hichoice.appliances/"><i
-                                    class="fab fa-instagram"></i></a>
+                                href="https://www.instagram.com/hichoice.appliances/"
+                                aria-label="Hi Choice on Instagram"><i class="fab fa-instagram"></i></a>
                             <a class="btn btn-lg-square btn-dark text-primary m-1"
-                                href="https://www.youtube.com/@hichoice.appliances"><i class="fab fa-youtube"></i></a>
+                                href="https://www.youtube.com/@hichoice.appliances" aria-label="Hi Choice on YouTube"><i
+                                    class="fab fa-youtube"></i></a>
                         </div>
                     </ul>
+
                 </div>
 
-                <div class="collapse navbar-collapse nav-icon-2" id="navbarSupportedContent">
-
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <div class="d-flex pt-1 m-n1">
-                            <a class="btn btn-lg-square btn-dark rounded-circle m-1" style="color: #0d6efd;"
-                                href="https://www.facebook.com/hichoice.appliances"><i
-                                    class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-lg-square btn-dark rounded-circle text-danger m-1"
-                                href="https://www.instagram.com/hichoice.appliances/"><i
-                                    class="fab fa-instagram"></i></a>
-                            <a class="btn btn-lg-square btn-dark rounded-circle text-danger m-1"
-                                href="https://www.youtube.com/@hichoice.appliances"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </ul>
-                </div>
+                <a class="home-button nav-enquire" href="contact2.html">Enquire Now <span
+                        aria-hidden="true">&#8594;</span></a>
 
             </div>
         </nav>
@@ -820,7 +792,7 @@
     </div>
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-secondary text-light footer mt-5 pt-5 wow fadeIn " data-wow-delay="0.1s">
+    <div class="container-fluid bg-secondary text-light footer site-footer mt-5 pt-5 wow fadeIn " data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
@@ -830,7 +802,8 @@
                             <span class="fa fa-map-marker-alt text-primary"></span>
                         </div>
                         <span><strong> IMPULSA </strong> - F-350, Bawana II, Dsiidc Bhorgarh Industrial Area, Phase II
-                            Near Cng Pump, Delhi-110040</span>
+                            Near Cng Pump,
+                            Delhi-110040</span>
                     </div>
                     <div class="d-flex align-items-center mb-2">
                         <div class="btn-square bg-dark flex-shrink-0 me-3">
@@ -861,29 +834,31 @@
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-uppercase mb-4">Newsletter</h4>
                     <div class="position-relative mb-4">
-                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <input aria-label="Newsletter email address" class="form-control border-0 w-100 py-3 ps-4 pe-5"
+                            type="email" placeholder="Your email">
                         <button type="button" style="background-color: #3fbd33; color: white;"
                             class="btn  py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                     </div>
                     <div class="d-flex pt-1 m-n1">
-                      <a class="btn btn-lg-square btn-dark text-primary m-1" href="https://www.facebook.com/hichoice.appliances"><i
+
+                        <a class="btn btn-lg-square btn-dark text-primary m-1"
+                            href="https://www.facebook.com/hichoice.appliances" aria-label="Hi Choice on Facebook"><i
                                 class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-lg-square btn-dark text-primary m-1" href="https://www.instagram.com/hichoice.appliances/"><i
+                        <a class="btn btn-lg-square btn-dark text-primary m-1"
+                            href="https://www.instagram.com/hichoice.appliances/" aria-label="Hi Choice on Instagram"><i
                                 class="fab fa-instagram"></i></a>
-                        <a class="btn btn-lg-square btn-dark text-primary m-1" href="https://www.youtube.com/@hichoice.appliances"><i
+                        <a class="btn btn-lg-square btn-dark text-primary m-1"
+                            href="https://www.youtube.com/@hichoice.appliances" aria-label="Hi Choice on YouTube"><i
                                 class="fab fa-youtube"></i></a>
 
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 d-flex justify-content-center flex-column align-items-center">
                     <div class="img-box col-lg-8 col-md-6 ">
-                        <img src="img/qr-code.png" class="img-fluid ms-auto">
+                        <img src="img/qr-code.png" class="img-fluid ms-auto" alt="Scan to explore Hi Choice">
                     </div>
                     <p class="text-center text-white">SCAN FOR EXPLORE US</p>
-
-
                 </div>
-
             </div>
         </div>
         <div class="container">
@@ -893,7 +868,7 @@
                         &copy; <a class="border-bottom" href="#">Hi Choice</a>, All Right Reserved.
                     </div>
                     <div class="col-md-6 text-center text-md-end">
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+
                         Designed By <a class="border-bottom" href="https://viraladsmedia.com">viraladsmedia</a>
                     </div>
                 </div>
