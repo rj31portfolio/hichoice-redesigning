@@ -1,0 +1,95 @@
+/* Larger, bolder type shared by the catalogue and product detail pages. */
+.ap-page .ap-main,
+.fan-page main { font-size: 17px; font-weight: 700; }
+
+.ap-page .ap-main p,
+.ap-page .ap-main li,
+.fan-page main p,
+.fan-page main li { font-size: 17px; font-weight: 700; line-height: 1.8; }
+
+.ap-page .ap-main h2,
+.fan-page main h2 { font-size: clamp(34px, 4vw, 52px); font-weight: 800; }
+
+.ap-page .ap-main .ap-card h3,
+.fan-page main .fan-card h3 { font-size: 22px; font-weight: 800; line-height: 1.4; min-height: 62px; overflow-wrap: anywhere; }
+
+.ap-page .ap-main .ap-card-copy a,
+.fan-page main .fan-card-link { font-size: 15px; font-weight: 800; line-height: 1.6; }
+
+.ap-page .ap-main :is(.ap-label, .ap-eyebrow, .ap-visual-tag, .cat-visual-label, .ap-breadcrumb),
+.fan-page main :is(.fan-eyebrow, .fan-card-category, .fan-breadcrumb, .fan-vertical-label) { font-size: 13px; font-weight: 800; letter-spacing: .07em; }
+
+.ap-page .ap-main :is(.ap-button, .ap-text-link),
+.fan-page main :is(.fan-button, .fan-text-link) { font-size: 16px; font-weight: 800; }
+
+.ap-page .ap-main :is(.ap-hero-note, .ap-benefits span, .ap-results, .ap-results p, .cat-group-heading > span),
+.fan-page main :is(.fan-results, .fan-results p, .fan-hero-note) { font-size: 15px; font-weight: 700; }
+
+.ap-page .ap-main :is(.ap-benefits strong, .ap-business-list strong),
+.fan-page main .fan-business-list strong { font-size: 19px; font-weight: 800; }
+
+.ap-page .ap-main .ap-accordion summary,
+.fan-page main .fan-faq summary { font-size: 18px; font-weight: 800; }
+.ap-page .ap-main .ap-accordion summary { padding-right: 12px; }
+
+.ap-page .ap-main .ap-visual-caption span { font-size: 15px; font-weight: 700; }
+.ap-page .ap-main .ap-visual-caption strong { font-size: 23px; font-weight: 800; }
+.ap-page .ap-main .ap-filters button { font-size: 15px; font-weight: 800; }
+.ap-page .ap-main .ap-filters button span { font-size: 13px; }
+.ap-page .ap-main .ap-search input { font-size: 16px; font-weight: 700; }
+.fan-page main .fan-search input { font-size: 16px !important; font-weight: 700; }
+.fan-page main .fan-filters button { font-size: 15px !important; font-weight: 800; }
+.fan-page main .fan-business-list p { font-size: 17px !important; }
+
+.ap-page .ap-main .cat-group-heading h3 { font-size: 28px; font-weight: 800; }
+.ap-page .ap-main .cat-layout { grid-template-columns: 260px minmax(0, 1fr); }
+.ap-page .ap-main .cat-layout-single { grid-template-columns: minmax(0, 1fr); }
+.ap-page .ap-main .cat-sidebar nav a { font-size: 15px; font-weight: 800; }
+.ap-page .ap-main .cat-sidebar nav a > span { font-size: 13px; }
+.ap-page .ap-main .cat-help strong { font-size: 18px; }
+.ap-page .ap-main .cat-help a { font-size: 15px; }
+.ap-page .ap-main .cat-sort { font-size: 14px; font-weight: 700; }
+.ap-page .ap-main .cat-sort select { font-size: 16px; font-weight: 700; width: 185px; max-width: 185px; }
+.ap-page .ap-main .ap-results button { font-size: 15px; font-weight: 800; }
+.ap-page .ap-main .cat-hero-stats { gap: 22px; }
+.ap-page .ap-main .cat-hero-stats > span { font-size: 14px; font-weight: 700; padding-right: 20px; }
+.ap-page .ap-main .cat-hero-stats strong { font-size: 30px; }
+.ap-page .ap-main .cat-feature { min-height: 270px; }
+.ap-page .ap-main .cat-feature h3 { font-size: 22px; }
+.ap-page .ap-main .cat-feature > div > span { font-size: 14px; font-weight: 700; }
+.ap-page .ap-main .cat-feature img { height: 140px; }
+.ap-page .ap-main .cat-visual-note { left: 16px; max-width: calc(100% - 32px); }
+.ap-page .ap-main .cat-visual-note p { font-size: 14px; }
+.ap-page .ap-main .cat-visual-note strong { font-size: 16px; }
+.ap-page .ap-main .cat-visual-note > span { flex-shrink: 0; }
+
+@media (max-width: 1100px) {
+    .ap-page .ap-main .cat-layout { grid-template-columns: 225px minmax(0, 1fr); }
+    .ap-page .ap-main .cat-layout-single { grid-template-columns: minmax(0, 1fr); }
+    .ap-page .ap-main .cat-toolbar { flex-wrap: wrap; }
+    .ap-page .ap-main .cat-toolbar .ap-search { width: 100%; max-width: none; }
+}
+
+@media (max-width: 767px) {
+    .ap-page .ap-main h2,
+    .fan-page main h2 { font-size: 34px; }
+    .ap-page .ap-main .ap-card h3,
+    .fan-page main .fan-card h3 { font-size: 20px; min-height: 84px; }
+    .ap-page .ap-main .ap-card-copy a,
+    .fan-page main .fan-card-link { font-size: 14px; align-items: start; }
+    .ap-page .ap-main .ap-label,
+    .fan-page main .fan-card-category { font-size: 12px; }
+    .ap-page .ap-main .cat-layout { grid-template-columns: minmax(0, 1fr); }
+    .ap-page .ap-main .cat-toolbar { flex-direction: column; align-items: stretch; }
+    .ap-page .ap-main .cat-sort { flex-direction: row; justify-content: space-between; align-items: center; }
+    .ap-page .ap-main .cat-sort select { width: 185px; }
+    .ap-page .ap-main .cat-hero-stats { gap: 12px; }
+    .ap-page .ap-main .cat-hero-stats > span { font-size: 13px; padding-right: 12px; min-width: 0; }
+    .ap-page .ap-main .cat-hero-stats > span:last-child { padding-right: 0; }
+    .ap-page .ap-main .cat-feature { min-height: 285px; padding: 14px; }
+    .ap-page .ap-main .cat-feature h3 { font-size: 20px; }
+    .ap-page .ap-main .cat-feature > div > span { font-size: 13px; }
+    .ap-page .ap-main .cat-visual-label { font-size: 11px; }
+    .ap-page .ap-main .ap-results { flex-wrap: wrap; }
+    .ap-page .ap-main .ap-hero-note { align-items: start; }
+}
