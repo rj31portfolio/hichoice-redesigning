@@ -6,10 +6,10 @@
     <title>Contact Us - Hi Choice</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="Get in touch with Hi Choice for product enquiries, dealership opportunities, bulk orders and support. Call, email or visit our head office in Delhi." name="description">
 
     <!-- Favicon -->
-    <link href="https://hichoicesproduct.netlify.app/img/hlogo2.png" rel="icon">
+    <link href="img/hlogo.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,9 +38,11 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/site-shell.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
 </head>
 
 <body>
+    <a class="contact-skip" href="#contact-main">Skip to contact information</a>
 
 
     <!-- Navbar Start -->
@@ -135,125 +137,72 @@
     <!-- Navbar End -->
 
 
-    <!-- Page Header Start -->
-    <div class="container-fluid px-0">
-        <img src="img/contact-inner.jpg" class="img-fluid des">
-        <img src="img/contact-inner-sm.jpg" class="img-fluid mob ">
-
-    </div>
-
-    <!-- Page Header End -->
-
-    <div class="contact-page section">
-        <!-- <div class="heading text-center"> Get in Touch 
-        </div>
-        <h1 class="sub-head mb-4 text-center">
-          Reach Out for Inquiries, Support, or Collaboration
-        </h1> -->
-
-        <div class="container">
-            <div class="row">
-                <div class="col-xxl-4 col-md-6 p-2 ">
-                    <div class="content aos-init aos-animate" data-aos="fade-up">
-                        <div class="icon"><i class="ri-map-pin-line "></i></div>
-
-                        <h4>Head Office</h4>
-
-                        <p class="text-center"> <a href="#"> <strong> IMPULSA </strong> - F-350, Bawana II, Dsiidc <br> Bhorgarh Industrial Area, Phase <br> II Near Cng Pump,
-                                Delhi-110040 </a> </p>
-                    </div>
-                </div>
-                <div class="col-xxl-4 col-md-6 p-2">
-                    <div class="content aos-init aos-animate" data-aos="fade-up">
-                        <div class="icon">
-                            <i class="fa-solid fa-phone-volume"></i>
+    <main id="contact-main" class="contact-main">
+        <section class="contact-hero" aria-labelledby="contact-title">
+            <div class="contact-wrap">
+                <nav class="contact-breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">/</span><span aria-current="page">Contact us</span></nav>
+                <div class="contact-hero-grid">
+                    <div class="contact-intro">
+                        <span class="contact-eyebrow"><span></span> WE'RE HERE TO HELP</span>
+                        <h1 id="contact-title">Good things start<br>with a <em>conversation.</em></h1>
+                        <p>Looking for the right appliance, planning a bulk order, or ready to partner with us? Let's find your Hi Choice.</p>
+                        <div class="contact-actions">
+                            <a class="contact-button" href="#contact-form">Send an enquiry <span aria-hidden="true">&#8599;</span></a>
+                            <a class="contact-text-link" href="tel:+919667966266"><i class="bi bi-telephone" aria-hidden="true"></i> Talk to our team</a>
                         </div>
-
-                        <h4>Let's Talk</h4>
-                        <p class="text-center"><a href="tel:+919667966266">+91 9667 966 266</a>
-                            </a>
-                        </p>
+                        <div class="contact-topics"><span>Product enquiries</span><span>Dealerships</span><span>Customer support</span></div>
                     </div>
-                </div>
-                <div class="col-xxl-4 col-md-6 p-2 email-box">
-                    <div class="content aos-init aos-animate" data-aos="fade-up">
-                        <div class="icon"> <i class="ri-mail-line"></i></div>
-                        <h4>Email Support</h4>
-                        <p class="text-center"> <a href="mailto:info@hichoice.in">info@hichoice.in</a><br>
-                            <!-- <a href="mailto:">info@example.com</a> -->
-                            <br>
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-    <!-- Contact Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-0">
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="bg-secondary p-5">
-                        <p class="d-inline-block bg-dark text-primary py-1 px-4">Contact Us</p>
-                        <h1 class="text-uppercase mb-4">Contact Us</h1>
-                        <!-- <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p> -->
-                        <form method="post" action="send_mail.php">
-                            <div class="row g-3">
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control bg-transparent" id="name"
-                                            placeholder="Your Name">
-                                        <label for="name">Your Name</label>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="email" class="form-control bg-transparent" id="email"
-                                            placeholder="Your Email">
-                                        <label for="email">Your Email</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control bg-transparent" id="subject"
-                                            placeholder="Subject">
-                                        <label for="subject">Subject</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <textarea class="form-control bg-transparent" placeholder="Leave a message here"
-                                            id="message" style="height: 100px"></textarea>
-                                        <label for="message">Message</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn w-100 py-3" style="background-color: #3dcc31;" type="submit">Send
-                                        Message</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="h-100" style="min-height: 400px;">
-
-
-                        <iframe class="google-map w-100 h-100"
-                            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3495.6842670763976!2d77.09111407550765!3d28.818481375563604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDQ5JzA2LjUiTiA3N8KwMDUnMzcuMyJF!5e0!3m2!1sen!2sin!4v1756204288160!5m2!1sen!2sin"
-                            frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"
-                            style=" border: 0;"></iframe>
-                    </div>
+                    <aside class="contact-hello" aria-label="Chat with Hi Choice">
+                        <span class="contact-hello-label">A LITTLE HELLO GOES A LONG WAY</span>
+                        <div class="contact-chat-icon"><i class="bi bi-chat-dots" aria-hidden="true"></i></div>
+                        <h2>Let's talk.<br>We're all ears.</h2>
+                        <p>Your next question. Your next order.<br>Your next opportunity.</p>
+                        <a href="https://wa.me/919667966266?text=Hello%20Hi%20Choice%2C%20I%20have%20an%20enquiry."><i class="bi bi-whatsapp" aria-hidden="true"></i> Say hello on WhatsApp <span aria-hidden="true">&#8599;</span></a>
+                        <div class="contact-hello-note"><span></span> The Hi Choice team</div>
+                    </aside>
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- Contact End -->
+        </section>
+
+        <section class="contact-methods contact-wrap" aria-label="Ways to reach us">
+            <a class="contact-method" href="tel:+919667966266">
+                <span class="contact-method-icon"><i class="bi bi-telephone" aria-hidden="true"></i></span>
+                <div><span class="contact-kicker">GIVE US A CALL</span><h2>Let's talk it through</h2><p>+91 9667 966 266</p><span class="contact-method-link">Call our team <span aria-hidden="true">&#8599;</span></span></div>
+            </a>
+            <a class="contact-method" href="mailto:info@hichoice.in">
+                <span class="contact-method-icon"><i class="bi bi-envelope" aria-hidden="true"></i></span>
+                <div><span class="contact-kicker">DROP US A LINE</span><h2>A message away</h2><p>info@hichoice.in</p><span class="contact-method-link">Write to us <span aria-hidden="true">&#8599;</span></span></div>
+            </a>
+            <a class="contact-method" href="https://www.google.com/maps/search/?api=1&amp;query=IMPULSA%20F-350%20Bawana%20II%20Bhorgarh%20Delhi%20110040" target="_blank" rel="noopener noreferrer">
+                <span class="contact-method-icon"><i class="bi bi-geo-alt" aria-hidden="true"></i></span>
+                <div><span class="contact-kicker">FIND US IN DELHI</span><h2>Our head office</h2><p>Bhorgarh Industrial Area, Delhi</p><span class="contact-method-link">Get directions <span aria-hidden="true">&#8599;</span><span class="visually-hidden"> (opens in a new tab)</span></span></div>
+            </a>
+        </section>
+
+        <section class="contact-enquiry contact-wrap" aria-labelledby="enquiry-title">
+            <div class="contact-form-panel">
+                <span class="contact-eyebrow"><span></span> LET'S CONNECT</span>
+                <h2 id="enquiry-title">How can we help you?</h2>
+                <p>Tell us a little about what you need, and our team will help you take the next step.</p>
+                <form id="contact-form" method="post" action="send_mail.php">
+                    <div class="contact-form-grid">
+                        <div class="contact-field"><label for="name">Your name <span aria-hidden="true">*</span></label><input type="text" id="name" name="name" placeholder="Full name" autocomplete="name" maxlength="120" required></div>
+                        <div class="contact-field"><label for="email">Email address <span aria-hidden="true">*</span></label><input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" maxlength="254" required></div>
+                        <div class="contact-field contact-field-wide"><label for="subject">What can we help with? <span aria-hidden="true">*</span></label><select id="subject" name="subject" required><option value="" disabled selected>Select your enquiry</option><option>Product enquiry</option><option>Bulk order / quotation</option><option>Dealership / distribution</option><option>OEM / private label</option><option>Customer support</option><option>Other enquiry</option></select></div>
+                        <div class="contact-field contact-field-wide"><label for="message">Your message <span aria-hidden="true">*</span></label><textarea id="message" name="message" rows="5" placeholder="Tell us about the products, quantities or support you're looking for..." maxlength="5000" required></textarea></div>
+                    </div>
+                    <div class="contact-form-bottom"><p>Fields marked * are required.</p><button class="contact-button" type="submit">Send message <span aria-hidden="true">&#8599;</span></button></div>
+                </form>
+            </div>
+            <aside class="contact-visit" aria-labelledby="visit-title">
+                <div class="contact-visit-copy"><span class="contact-eyebrow"><span></span> COME SAY HELLO</span><h2 id="visit-title">Rooted in Delhi.<br>Ready to connect.</h2><address><strong>IMPULSA &middot; Hi Choice</strong><br>F-350, Bawana II, DSIIDC<br>Bhorgarh Industrial Area, Phase II<br>Near CNG Pump, Delhi &ndash; 110040</address><a class="contact-text-link" href="https://www.google.com/maps/search/?api=1&amp;query=IMPULSA%20F-350%20Bawana%20II%20Bhorgarh%20Delhi%20110040" target="_blank" rel="noopener noreferrer">Get directions <span aria-hidden="true">&#8599;</span><span class="visually-hidden"> (opens in a new tab)</span></a></div>
+                <iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3495.6842670763976!2d77.09111407550765!3d28.818481375563604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDQ5JzA2LjUiTiA3N8KwMDUnMzcuMyJF!5e0!3m2!1sen!2sin!4v1756204288160!5m2!1sen!2sin" title="Map showing the Hi Choice head office in Bhorgarh, Delhi" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+            </aside>
+        </section>
+        <section class="contact-catalogue">
+            <div class="contact-wrap"><div><span class="contact-eyebrow">MEET YOUR NEXT HI CHOICE</span><h2>Still exploring? Find your perfect fit.</h2><p>Discover everyday appliances for your home and your business.</p></div><a class="contact-button contact-button-outline" href="product.html">Explore our products <span aria-hidden="true">&#8599;</span></a></div>
+        </section>
+    </main>
 
     <!-- Footer Start -->
     <div class="container-fluid bg-secondary text-light footer site-footer mt-5 pt-5 wow fadeIn " data-wow-delay="0.1s">
@@ -281,7 +230,7 @@
                         <div class="btn-square bg-dark flex-shrink-0 me-3">
                             <span class="fa fa-envelope-open text-primary"></span>
                         </div>
-                        <a href="mailto:care@hichoice.in">
+                        <a href="mailto:info@hichoice.in">
                             <span>info@hichoice.in</span>
                         </a>
                     </div>
